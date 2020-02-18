@@ -11,5 +11,18 @@ Finally, I  compare the models and see how well each model perform using Classif
 A fault may be defined as an unacceptable difference of at least one characteristic property or attribute of a system from acceptable usual typical performance. The main purpose of any fault diagnosis system is to determine the location and occurrence time of possible faults on the basis of accessible data and knowledge about the performance of diagnosed processes. Manual fault diagnosis system is the traditional way where an expert with electronic meter tries to obtain some information about relevant operational equipment, check the maintenance manual and then diagnose the probable causes of a particular fault. However, intelligent fault diagnosis techniques can provide quick and correct systems that help to keep product quality problems at bay and facilitates precautionary maintenance.
 This project evaluates the performances of several popular and effective data mining models to diagnose seven commonly occurring faults of the steel plate namely; Pastry, Z_Scratch, K_Scatch, Stains, Dirtiness, Bumps and Other_Faults.
 
+## WorkFlow:
+1. **Exploratory Data Analysis**
+    1.1: Import the data and checked the shape of the data and divided the data into training se, validation set and test set in (60:20:20 ratio)
+    1.2: Checked for the null value which can be replaced by mean or mode.
+    1.3: Count plot with histogram visualization to show the number of defects belong to each defect.
+    1.4: Converted 'Type of steel' into one column as it looks like they are complementory
+    1.5: Converted one hot encoding of all the 7 types of faults into single column 'label'[label code]
+    1.6: Visual analysis of the correlation between the factors.
+    1.7: Dimension reduced from 1941*34 to 1941* 27 
+ 2. **Feature Selection**
+    2.1: standarisation of the feature datasets
+    2.2: Principal Component analysis(PCA) to reduce the number of features and PCA( with help of elbow method) it shows to take 11 components(features) which achieve 98% variance in it.
+
 
 
