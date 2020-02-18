@@ -37,6 +37,7 @@ This project evaluates the performances of several popular and effective data mi
 **Validation sets**
 ![](Images/pca_validation.png)
 ![](Images/non_pac_validation.png)
+**Test sets**
 ![](Images/pca_test.png)
 ![](Images/non_pca_test.png)
 
