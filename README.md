@@ -33,13 +33,27 @@ This project evaluates the performances of several popular and effective data mi
     3.7: Random Forest
     
 ## RESULTS: COMPARING MODELS
-
-**Validation sets**
+**Validation Sets**
 ![](Images/pca_validation.png)
 ![](Images/non_pac_validation.png)
-**Test sets**
+
+**Test Sets**
 ![](Images/pca_test.png)
 ![](Images/non_pca_test.png)
+
+## CONCLUSION:
+We can see from the above, that KMeans Algorithm does not give a very good result. As it
+is an unsupervised algorithm, it did not make use of the true labels. The model itself
+calculated that there should be 3-4 distinct clusters, whereas according to the true labels, we
+know there are 7 fault types. For this reason, KMeans model is unacceptable for this
+dataset.
+
+We can see from the above, that KMeans Algorithm does not give a very good result. As it
+is an unsupervised algorithm, it did not make use of the true labels. The model itself
+calculated that there should be 3-4 distinct clusters, whereas according to the true labels, we
+know there are 7 fault types. For this reason, KMeans model is unacceptable for this
+dataset.For the PCA applied test dataset, Random Forest once again gives a good result.
+
 
 
 
