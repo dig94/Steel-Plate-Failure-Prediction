@@ -32,7 +32,14 @@ This project evaluates the performances of several popular and effective data mi
     3.6: DECISION TREE
     3.7: Random Forest
     
-## RESULTS:
+## RESULTS: COMPARING MODELS
+
+**Validation sets**
+![](Images/pca_validation.png)
+![](Images/non_pac_validation.png)
+![](Images/pca_test.png)
+![](Images/non_pca_test.png)
+
 
 
 
