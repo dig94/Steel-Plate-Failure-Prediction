@@ -23,6 +23,16 @@ This project evaluates the performances of several popular and effective data mi
  2. **Feature Selection**
     2.1: standarisation of the feature datasets
     2.2: Principal Component analysis(PCA) to reduce the number of features and PCA( with help of elbow method) it shows to take 11 components(features) which achieve 98% variance in it.
+ 3. **Model Development and Classification**
+    3.1: Gaussian Naïve Bayes Classifier,
+    3.2: Logistic Regression,
+    3.3: SVM,
+    3.4: LDA,
+    3.5: KNN
+    3.6: DECISION TREE
+    3.7: Random Forest
+    
+## RESULTS:
 
 
 
