@@ -48,11 +48,11 @@ calculated that there should be 3-4 distinct clusters, whereas according to the 
 know there are 7 fault types. For this reason, KMeans model is unacceptable for this
 dataset.
 
-We can see from the above, that KMeans Algorithm does not give a very good result. As it
-is an unsupervised algorithm, it did not make use of the true labels. The model itself
-calculated that there should be 3-4 distinct clusters, whereas according to the true labels, we
-know there are 7 fault types. For this reason, KMeans model is unacceptable for this
-dataset.For the PCA applied test dataset, Random Forest once again gives a good result.
+On the other hand, the Supervised models did a much better job. As can be see from their
+comparison, the test dataset without PCA applied on them, gave best results with Random
+Forest algorithm. This is quite expected, as Random Forest is an ensemble algorithm using
+a combination of other algorithms (Decision trees in this case).
+For the PCA applied test dataset, Random Forest once again gives a good result.
 
 
 
